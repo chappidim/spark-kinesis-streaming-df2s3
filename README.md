@@ -17,7 +17,7 @@ Run spark-submit job,
 Similarly for cluster-mode
  spark-submit --deploy-mode cluster .....
  
- #Sample Output
+#Sample Output
 * s3 output 4 files (s3://BUCKET/PREFIX/2016-05-06/22/54/)
 
     2016-05-06 22:54:05          0 _SUCCESS
