@@ -16,4 +16,18 @@ Run spark-submit job,
   
 Similarly for cluster-mode
  spark-submit --deploy-mode cluster .....
+ 
+ #Sample Output
+* s3 output 4 files (s3://BUCKET/PREFIX/2016-05-06/22/54/)
+
+    2016-05-06 22:54:05          0 _SUCCESS
+    2016-05-06 22:54:05    7120056 part-r-00000-a2edefa4-885f-4588-b57e-bcd374f9cb2a
+    2016-05-06 22:54:04    6866527 part-r-00001-a2edefa4-885f-4588-b57e-bcd374f9cb2a
+    2016-05-06 22:54:04    7106386 part-r-00002-a2edefa4-885f-4588-b57e-bcd374f9cb2a
+    2016-05-06 22:54:05    6934406 part-r-00003-a2edefa4-885f-4588-b57e-bcd374f9cb2a
+* JSON output
+
+    {"word":"police","total":5}
+    {"word":"Giles","total":1}
+    {"word":"UK\",\"url\":null,\"description\":\"Arsenal,","total":1}
 
